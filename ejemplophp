@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>frontera</title>
+  </head>
+  <body>
+  <label>Nombres: <input type="text" name="nom" placeholder="Ingrese sus nombres"></label><br><br>
+  <label>Apellidos: <input type="text" name="ape" placeholder="Ingrese sus apellidos"></label><br><br>
+  <label>Correo: <input type="text" name="email" placeholder="e.g jose2017@gmail.com"></label><br><br>
+  <label>Teléfono: <input type="text" name="fono"</label><br><br>
+  <button <input type="submit" name="enviar">Enviar Datos</button>
+  </body>
+</html>

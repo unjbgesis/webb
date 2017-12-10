@@ -1,0 +1,160 @@
+<!Doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>frontera</title>
+    <meta name="viewport" content="width-device-width, user-scalable=no,initial-scale-1.0,maximum-scale=1.0,minimum-scale=1.0">
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <!--<link rel="stylesheet" href="<font->awesome-4.6.3/css</font-awesome.css>">-->
+
+    <script type="text/javascript">
+  function codifica(){
+    var valor1 = document.getElementById("pass").value;
+    var encodedString = btoa(valor1);
+    document.cod.pass.value = encodedString;
+  }
+  </script>
+
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    <style>
+      p#sp1 span{
+        position: absolute;
+        color: #3C45A9;
+        margin-right: 10px;
+        font-size: 55px;
+        top: 66%;
+        left: 17%;
+      }
+      p#sp2 span{
+        color: #F4352E;
+        margin-right: 10px;
+        font-size: 45px;
+        position: absolute;
+        top: 69%;
+        left: 36%;
+      }
+      p#sp3 span{
+        color:#70D7F1;
+        margin-right: 10px;
+        font-size: 69px;
+        position: absolute;
+        top: 64%;
+        left: 73%;
+      }
+      label#spcall span{
+        color:black;
+        margin-right: 10px;
+        font-size: 20px;
+
+      }
+      label#spmail span{
+        color:black;
+        margin-right: 10px;
+        font-size: 20px;
+          color:black;
+
+      }
+      button#spder span{
+        color:black;
+        margin-right: 10px;
+        font-size: 20px;
+          color:black;
+      }
+    </style>
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+
+  </script>
+  <body>
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+    <header>
+      <div>
+      <!--<img src="frontera.jpg">-->
+      <h1>HOTEL FRONTERA</h1>
+        <label id="spcall"><span class="icon-phone"></span>(+51)956482063</label>
+        <label  id="spmail"><span class="icon-mail2"></span>hotelFrontera.com.pe</label>
+        <button id="spder" class="btn btn-primary"><span class="icon-arrow-right"></span>Login</button>
+
+        <nav>
+
+          <ul>
+            <li><a href="#"> Inicio </a></li>
+            <li><a href="#"> Visión </a></li>
+            <li><a href="#"> Misión </a></li>
+            <li><a href="#">Habitaciones</a>
+              <ul>
+                <li><a href="#">Simples</a></li>
+                <li><a href="#">Dobles</a></li>
+                <li><a href="#">Triples</a></li>
+                <li><a href="#">Matrimoniales</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Reservas</a></li>
+          </ul>
+        </nav><br>
+
+
+    </header>
+
+
+
+  <div class="rect-text">
+    <label class="lab1-text">Hotel Frontera</label>
+    <label class="lab2-text">Ubicación</label>
+    <label class="lab3-text">Dirección</label>
+  </div>
+
+  <section>
+    <div id="caja1">
+      <p>En la Heroica ciudad de Tacna, usted puede disfrutar de nuestro moderno Hotel "La Frontera", dispone con habitaciones Simples,Dobles,Triples y Matrimoniales, con los mejores servicios Hoteleros que usted busca para que su estadia en nuestra ciudad sea de su agrado y se sienta con en su casa, pues le daremos un atención personalizada por nuestro personal altamente capacitado</p>
+    </div>
+
+    <div id="caja2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204208.9667898215!2d-70.29506502626317!3d-18.002887793667806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915acf639941978b%3A0x195c982232963d9e!2sHotel+La+Frontera!5e0!3m2!1ses-419!2spe!4v1511553732771" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
+    <div id="caja3">
+      <p>General Suarez 294 Tacna-Perú eservas@hotelfrontera.com.pe www.hotelFrontera.com.pe</p><br><br>
+      <p>Síguenos en: </p><br>
+      <p id="sp1"><span class="icon-facebook2"></span></p>
+      <p id="sp2"><span class="icon-youtube2"></span></p>
+      <p id="sp3"><span class="icon-twitter"></span></p>
+    </div>
+  </section>
+
+<!--<div align="center" class="cuadro-background">
+      <form class="" action="ejemplo.php" method="POST" id="cod" name="cod">
+          <p class="white-text">REGISTRO DE USUARIO</p>
+        <label class="black-text">Nombres:  <input type="text" name="nom" placeholder="Ingrese sus nombres" required ></label><br>
+        <label class="black-text">Apellidos:  <input type="text" name="ape" placeholder="Ingrese sus apellidos" required></label><br>
+        <label class="black-text">Turno:</label>
+        <select name="turno" required>
+            <option value="M">Mañana</option>
+            <option value="T">Tarde</option>
+        </select><br>
+        <label class="black-text">contraseña:</label>
+        <input type="password" name="pass" id="pass" required><br>
+        <label class="black-text" >Teléfono:  <input type="text" name="fono"</label><br>
+        <label>Tipo de usuario:</label><br>
+        <label class="black-text" >Administrador</label><input value="a" type="radio" name="genero" ><br>
+        <label class="black-text">Recepcionista </label><input  value="r" type="radio" name="genero" checked ><br>
+        <!NOSEDEBEDE VER OJO!!<label>id: <input type="text" name="id"</label><br>
+        <button <input type="submit" name="enviar" onclick="codifica()" />Enviar Datos</button>
+      </form>
+    </div>
+  -->
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
