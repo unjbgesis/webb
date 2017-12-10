@@ -21,7 +21,7 @@
 
   <body >
 
-    <header position="fixed">
+    <header id="posicion">
       <div >
 
         <img  id="logo" src="logo.png">
@@ -37,8 +37,8 @@
             <li><a href="mision.html"> Misión </a></li>
             <li><a href="#">Habitaciones</a>
               <ul>
-                <li><a href="#">Simples</a></li>
-                <li><a href="#">Dobles</a></li>
+                <li><a href="#simples">Simples</a></li>
+                <li><a href="#dobles">Dobles</a></li>
                 <li><a href="#triples">Triples</a></li>
                 <li><a href="#matri">Matrimoniales</a></li>
               </ul>
@@ -55,15 +55,215 @@
 
 
 <div class="reservacion-text">
-  <label >_______________________________________________________________________________________________________</label><br>
-  <h2 >RESERVACIONES</h2>
-  <label >_______________________________________________________________________________________________________</label>
+  <label ><b>_______________________________________________________________________________________________________</b></label><br>
+  <h2 ><b>*** RESERVACIONES ***</b></h2>
+  <label ><b>_______________________________________________________________________________________________________</b></label>
 </div>
 
-<div>
+<section>
+  <div id="simples" class="habtriple-text">
+    <label >Habitaciones Simples</label>
+  </div><br><br>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <a href="simple.jpg">
+            <img src="simple.jpg" alt="Lights" style="width:100%">
+          </a>
+        </div>
+      </div>
+        <div class="col-md-6" >
+          <h3 class="titinfo-text"><b> Detalles de Habitación</b></h3>
+          <ul>
+          <li class="info-text"> 1 Persona</li>
+          <li class="info-text" >1 cama 2 plazas y 1 camas de 1 plaza</li>
+          </ul>
+
+          <p class="info-text" ALIGN="justify">Cómoda habitación pensada en los viajeros de negocios o de
+            vacaciones con libre WiFi que los mantendrá conectados con sus lugares de trabajo, familiares y amigos.</p><br>
+
+          <button data-toggle="collapse" data-target="#demo1" class="btn btn-primary"><span id="spaver" class="glyphicon glyphicon-triangle-bottom"></span>Ver más...</button><span id="spaatributos"class="icon-connection "></span>
+          <span id="spaatributos"class="icon-tv "></span><br><br>
+        <div id="demo1" class="collapse">
+          <table align=left cellpadding=4 cellspacing=0 border=0  class="table-bordered table-striped">
+            <thead>
+              <tr>
+                <th class="info-text"><b>Servicios</b></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="info-text">Wifi gratuito</td>
+              </tr>
+              <tr>
+                <td class="info-text"Servicio de habitaciones</td>
+              </tr>
+
+              <tr>
+                <td class="info-text">Teléfono</td>
+              </tr>
+              <tr>
+                <td class="info-text">Televisión de pantalla plana</td>
+              </tr>
+              <tr>
+                <td class="info-text">Televisión con canales por cable</td>
+              </tr>
+
+              <tr>
+                <td class="info-text">Artículos de aseo</td>
+              </tr>
+              <tr>
+                <td class="info-text">Secador de pelo</td>
+              </tr>
+            </tbody>
+          </table>
+          <table align=right cellpadding=4 cellspacing=0 border=0 class="table-bordered table-striped">
+            <thead>
+              <tr>
+                <th class="info-text"><b>Habitaciones disponibles</b></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="info-text">1</td>
+              </tr>
+              <tr>
+                <td class="info-text">2</td>
+              </tr>
+              <tr>
+                <td class="info-text">3</td>
+              </tr>
+              <tr>
+                <td class="info-text">4</td>
+              </tr>
+              <tr>
+                <td class="info-text">5</td>
+              </tr>
+              <tr>
+                <td class="info-text">6</td>
+              </tr>
+              <tr>
+                <td class="info-text">7</td>
+              </tr>
+            </tbody>
+          </table><br>
+        </div>
+       </div>
+      </div>
+    </div>
+</section><br>
+
+
+
+
+<!-- TABLA DE HABOTACIONES DOBLES -->
+
+
+<section>
+  <div id="dobles" class="habtriple-text">
+    <label >Habitaciones Dobles</label>
+  </div><br><br>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <a href="doble.jpg">
+            <img src="doble.jpg" alt="Lights" style="width:100%">
+          </a>
+        </div>
+      </div>
+        <div class="col-md-6" id="seccion">
+          <h3 class="titinfo-text"><b> Detalles de Habitación</b></h3>
+          <ul>
+          <li class="info-text">1 a 2 Persona</li>
+          <li class="info-text">2 camas de 1 plaza</li>
+          </ul>
+
+          <p  class="info-text" ALIGN="justify">Habitación perfecta para una o dos personas, ofrece vistas al patio o a la calle y cuenta con ventanas de doble acristalamiento para que disfrute de un ambiente tranquilo y relajante. Dispone de una cama de 140 cm de ancho, baño con bañera e inodoro privado.</p><br>
+
+          <button data-toggle="collapse" data-target="#demo9" class="btn btn-primary"><span id="spaver" class="glyphicon glyphicon-triangle-bottom"></span>Ver más...</button><span id="spaatributos"class="icon-connection "></span>
+          <span id="spaatributos"class="icon-tv "></span><br><br>
+        <div id="demo9" class="collapse">
+          <table align=left cellpadding=4 cellspacing=0 border=0  class="table-bordered table-striped">
+            <thead>
+              <tr>
+                <th class="info-text"><b>Servicios</b></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="info-text">Wifi gratuito</td>
+              </tr>
+              <tr>
+                <td class="info-text">Servicio de habitaciones</td>
+              </tr>
+              <tr>
+                <td class="info-text">Aire Acondicionado</td>
+              </tr>
+              <tr>
+                <td class="info-text">Teléfono</td>
+              </tr>
+              <tr>
+                <td class="info-text">Televisión de pantalla plana</td>
+              </tr>
+              <tr>
+                <td class="info-text">Televisión con canales por cable</td>
+              </tr>
+
+              <tr>
+                <td class="info-text">Artículos de aseo de alta gama</td>
+              </tr>
+              <tr>
+                <td class="info-text">Secador de pelo</td>
+              </tr>
+            </tbody>
+          </table>
+          <table align=right cellpadding=4 cellspacing=0 border=0 class="table-bordered table-striped">
+            <thead>
+              <tr>
+                <th class="info-text"><b>Habitaciones disponibles</b></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="info-text">1</td>
+              </tr>
+              <tr>
+                <td class="info-text">2</td>
+              </tr>
+              <tr>
+                <td class="info-text">3</td>
+              </tr>
+              <tr>
+                <td class="info-text">4</td>
+              </tr>
+              <tr>
+                <td class="info-text"> 5</td>
+              </tr>
+              <tr>
+                <td class="info-text">6</td>
+              </tr>
+              <tr>
+                <td class="info-text">7</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+       </div>
+      </div>
+    </div>
+</section><br>
+
+
+<!--TABLA DE HABIATCIONES TRIPLES-->
+<section>
   <div id="triples" class="habtriple-text">
     <label >Habitaciones Triples</label>
-
   </div><br><br>
 
   <div  class="container">
@@ -74,105 +274,101 @@
                 <img src="triple1.jpg" alt="Ligths" style="width:100%">
               </a>
             </div>
-
-            <div id="triplecaja1">
-              <h3><b> Detalles de Habitación</b></h3>
+          </div>
+            <div class="col-md-6" id="seccion">
+              <h3 class="titinfo-text"><b> Detalles de Habitación</b></h3>
               <ul>
-                <li>1 a 3 Camas</li>
-                <li>1 cama 2 plazas y 2 camas de 1 plaza</li>
+                <li class="info-text">1 a 3 Personas</li>
+                <li class="info-text">1 cama de 1 plaza</li>
               </ul>
-              <p>Amplias habitaciones, con una decoración moderna, equipada con todas las necesidades que necesitas. Disponible con 1 cama 2 plazas y 2 camas de 1 plaza, nuestros espaciosos cuentan con baños dentro de la habitación están bien preparados con duchas de lujo, artículos de aseo de marca y lujosas toallas de baño</p>
+              <p class="info-text" ALIGN="justify">Amplias habitaciones, con una decoración moderna, equipada con todas las necesidades que necesitas. Disponible con 1 cama 2 plazas y 2 camas de 1 plaza, nuestros espaciosos cuentan con baños dentro de la habitación están bien preparados con duchas de lujo, artículos de aseo de marca y lujosas toallas de baño</p>
 
 
-              <button data-toggle="collapse" data-target="#demo" class="btn btn-primary" >
-                <span id="spaver" class="glyphicon glyphicon-triangle-bottom"></span>Ver más...</button>
-              <span id="spaatributos"class="icon-connection "></span>
-              <span id="spaatributos"class="icon-tv "></span>
+              <button data-toggle="collapse" data-target="#demo2" class="btn btn-primary"><span id="spaver" class="glyphicon glyphicon-triangle-bottom"></span>Ver más...</button><span id="spaatributos"class="icon-connection "></span>
+              <span id="spaatributos"class="icon-tv "></span><br><br>
+            <div id="demo2" class="collapse">
+              <table align=left cellpadding=4 cellspacing=0 border=0  class="table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th class="info-text"><b>Servicios</b></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="info-text">Wifi gratuito</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">Servicio de habitaciones</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">Aire Acondicionado</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">Teléfono</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">Televisión de pantalla plana</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">Televisión con canales por cable</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">Baño Privado</td>
+                  </tr>
 
-
-              <div id="demo" class="collapse">
-
-                <table align=left cellpadding=4 cellspacing=0 border=0  class="table-bordered table-striped">
-                  <thead>
-                    <tr>
-                      <th>Servicios</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Wifi gratuito</td>
-                    </tr>
-                    <tr>
-                      <td>Servicio de habitaciones</td>
-                    </tr>
-                    <tr>
-                      <td>Aire Acondicionado</td>
-                    </tr>
-                    <tr>
-                      <td>Teléfono</td>
-                    </tr>
-                    <tr>
-                      <td>Televisión de pantalla plana</td>
-                    </tr>
-                    <tr>
-                      <td>Televisión con canales por cable</td>
-                    </tr>
-                    <tr>
-                      <td>Escritorio y silla ejecutiva</td>
-                    </tr>
-                    <tr>
-                      <td>Artículos de aseo de alta gama</td>
-                    </tr>
-                    <tr>
-                      <td>Secador de pelo</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table align=right cellpadding=4 cellspacing=0 border=0 class="table-bordered table-striped">
-                  <thead>
-                    <tr>
-                      <th>Habitaciones disponibles</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                    </tr>
-                    <tr>
-                      <td>7</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
+                  <tr>
+                    <td class="info-text">Artículos de aseo de alta gama</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">Secador de pelo</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table  align=right cellpadding=4 cellspacing=0 border=0 class="table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th class="info-text"><b>Habitaciones disponibles</b></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="info-text">1</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">2</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">3</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">4</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">5</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">6</td>
+                  </tr>
+                  <tr>
+                    <td class="info-text">7</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-
-
           </div>
         </div>
-    </div><br>
+      </div>
+</section><br>
 
+
+
+
+<!--  MATRIMONIALE-->
+<section>
     <div id="matri" class="habtriple-text">
       <label >Habitaciones Matrimoniales</label>
 
     </div><br><br>
-
-
       <div  class="container">
             <div class="row">
               <div class="col-md-6">
@@ -181,26 +377,93 @@
                     <img src="matrimoniales.jpg" alt="Ligths" style="width:100%">
                   </a>
                 </div>
-
-                <div id="triplecaja1">
-                  <h3><b> Detalles de Habitación</b></h3>
+              </div>
+                <div class="col-md-6" id="seccion">
+                  <h3 class="titinfo-text"><b> Detalles de Habitación</b></h3>
                   <ul>
-                    <li>1 a 2 Camas</li>
-                    <li>1 cama 2 plazas y 1 camas de 1 plaza</li>
+                    <li class="info-text">1 a 3 Personas</li>
+                    <li class="info-text">1 cama 2 plazas y 1 camas de 1 plaza</li>
                   </ul>
-                  <p>La suite de lujo es confortable y moderna, ofrece una elegante decoración, dormitorio, sala de estar, cocina, comedor, alfombrado de pared a pared, escritorio de oficina, señal Wi-Fi, aire acondicionado y todas las comodidades descritas abajo.Nuestros amplios cuartos de baño están bien equipados con duchas de lluvia de lujo, artículos de tocador de marca y toallas de baño de lujo.</p>
+                  <p class="info-text" ALIGN="justify"> La suite de lujo es confortable y moderna, ofrece una elegante decoración, dormitorio, sala de estar, cocina, comedor, alfombrado de pared a pared, escritorio de oficina, señal Wi-Fi, aire acondicionado y todas las comodidades descritas abajo.Nuestros amplios cuartos de baño están bien equipados con duchas de lluvia de lujo, artículos de tocador de marca y toallas de baño de lujo.</p>
 
-                  <button type="button" class="btn btn-primary" name="button"><span id="spaeye" class="glyphicon glyphicon-triangle-bottom"></span>Ver más...</button>
-                  <span id="spaatributos"class="icon-connection "></span>
-                  <span id="spaatributos"class="icon-tv "></span>
+                  <button data-toggle="collapse" data-target="#demo3" class="btn btn-primary"><span id="spaver" class="glyphicon glyphicon-triangle-bottom"></span>Ver más...</button><span id="spaatributos"class="icon-connection "></span>
+                  <span id="spaatributos"class="icon-tv "></span><br><br>
+                <div id="demo3" class="collapse">
+                  <table align=left cellpadding=4 cellspacing=0 border=0  class="table-bordered table-striped">
+                    <thead>
+                      <tr>
+                        <th class="info-text"><b>Servicios</b></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="info-text">Wifi gratuito</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">Servicio de habitaciones</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text"> Aire Acondicionado</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">Teléfono</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">Televisión de pantalla plana</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text"> Televisión con canales por cable</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">Escritorio y silla ejecutiva</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">Baño Privado con Tina</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">Artículos de aseo de alta gama</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">Secador de pelo</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table align=right cellpadding=4 cellspacing=0 border=0 class="table-bordered table-striped">
+                    <thead>
+                      <tr>
+                        <th class="info-text"><b>Habitaciones disponibles</b</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="info-text">1</td>
+                      </tr>
+                      <tr>
+                        <td  class="info-text">2</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">3</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">4</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">5</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">6</td>
+                      </tr>
+                      <tr>
+                        <td class="info-text">7</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-
               </div>
             </div>
-        </div><br>
+</section><br>
 
 
-  </div>
 
 <!--pie de pagina-->
  <div id="piepagup"></div>
@@ -208,7 +471,7 @@
     <p id="pietext">2016 © www.hotelFrontera.com.pe, Todos los derechos reservados diseño: RJdiseñadores </p>
      <p id="pietext"> Visitanos también en nuestro Restaurante, goza de una exquisita comida.. <a target="blank" href="https://www.tripadvisor.com.pe/Restaurant_Review-g858537-d9818301-Reviews-La_Frontera-Tacna_Tacna_Region.html"> Ver Aqui Restaurante Frontera</a>
     </p>
-     <p id="pietext">Realiza tus Reservas llamando a (0051)-52 411533</p>
+     <p id="pietext">Realiza tus Reservas llamando a (051)-52 411533</p>
   </div>
 
   <script src="js/jquery.js"></script>

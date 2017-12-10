@@ -12,8 +12,10 @@ header{
   color:white;
   /*background: rgba(0, 0, 0, 0.9);*/
 
-
 }
+
+
+
 h1{
   padding-top: 0%;
   float: left;
@@ -203,6 +205,9 @@ img#logo{
   border-right-color:white;
 }
 
+div#cuadrobajo-text{
+  background: blue;
+}
 
 body{
 
@@ -264,7 +269,7 @@ div#newcaja1{
   padding-left: 6%;
   padding-right: 4%;
   padding-top: 3%;
-  padding-bottom: 3.6%;
+  padding-bottom: 5%;
   font-family: Georgia;
   font-size: 20px;
   text-align:justify;
@@ -279,7 +284,7 @@ div#newcaja1{
    width: 32%;
    height: 33.5%;
    left:60%;
-   top:103%;
+   top:111%;
 
  }
 
@@ -344,7 +349,7 @@ p#pietext{
   /*background: #0D7D85;*/
 
   padding-top: 0%;
-  padding: 3.4em;
+  padding: 1em;
   color:black;
   /*background: white);*/
   text-align: center;
@@ -363,12 +368,32 @@ p#pietext{
 
 }
 
-div#triplecaja1{
+
+span#spaver{
+  color:white;
+  margin-right: 13px;
+  font-size: 15px;
+
+}
+
+span#spaatributos{
+  color:black;
+  margin-right: 10px;
+  margin-left: 12px;
+  font-size: 20px;
+
+}
+
+
+
+/*posicion de ver mas*/
+
+/*div#triplecaja1{*/
   position: absolute;
   width:100%;
   height: 95.1%;
-  padding-left: 6%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 3%;
   padding-bottom: 3.6%;
   font-family: Georgia;
@@ -382,17 +407,18 @@ div#triplecaja1{
   top:0%;
 }
 
-span#spaver{
-  color:white;
-  margin-right: 10px;
-  font-size: 15px;
-
+.info-text{
+  font-size: 17px;
+  font-family: "Georgia";
+  margin-left:  5%;
+  margin-right: 10%;
+  line-height: 1.6;
 }
 
-span#spaatributos{
-  color:black;
-  margin-right: 10px;
-  margin-left: 10px;
-  font-size: 20px;
-
+.titinfo-text{
+  font-size: 25px;
+  font-family: "Georgia";
+  margin-left:  0%;
+  margin-right: 10%;
+  line-height: 1.6;
 }
